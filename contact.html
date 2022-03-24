@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta charset="utf-8" />
+    <title>Contact</title>
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/skeleton.css" />
+    <link rel="stylesheet" href="css/custom.css" />
+
+    <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="icon" type="image/png" href="images/favicon.webp" />
+  </head>
+  <body>
+    <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <div class="section nav">
+      <div class="container">
+        <ul style="margin-bottom: 0">
+          <li style="float: left">
+            <img src="./images/logo.png" alt="" class="nav-logo" />
+          </li>
+
+          <li><a class="active" href="./contact.html">contact</a></li>
+          <li><a href="./index.html">home</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="section nav-mobile">
+      <div class="container">
+        <ul style="margin-bottom: 0">
+          <li style="float: left">
+            <img src="./images/logo.png" alt="" class="nav-logo" />
+          </li>
+
+          <li>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa-solid fa-bars fa-2xl rotate"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="container" id="links">
+        <div class="row">
+          <div class="twelve columns">
+            <a href="./index.html"><i class="fa-solid fa-house"></i>HOME</a>
+          </div>
+          <div class="twelve columns active">
+            <a href="./contact.html"
+              ><i class="fa-solid fa-envelope"></i>CONTACT</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="content" class="section content">
+      <div class="container content contact">
+        <div class="article">
+          <div class="row">
+            <div class="eight columns">
+              <h1 class="heading"><span class="accent">WORK</span> WITH ME</h1>
+              <h5 class="subheading">&nbsp;What's the wait? Get in touch!</h5>
+            </div>
+          </div>
+          <hr />
+          <form>
+            <div class="row">
+              <div class="six columns">
+                <input
+                  class="u-full-width"
+                  type="text"
+                  placeholder="Name"
+                  id="nameInput"
+                  style="margin-bottom: 40px"
+                />
+              </div>
+              <div class="six columns">
+                <input
+                  class="u-full-width"
+                  type="email"
+                  placeholder="Email"
+                  id="emailInput"
+                  style="margin-bottom: 40px"
+                />
+              </div>
+            </div>
+            <textarea
+              class="u-full-width"
+              placeholder="Type Something..."
+              id="exampleMessage"
+              style="margin-bottom: 50px"
+            ></textarea>
+            <input
+              class="button u-full-width gradient-bg"
+              type="submit"
+              value="SEND"
+            />
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div id="footer" class="section footer">
+      <div class="container">
+        <div class="row">
+          <div class="twelve columns">
+            <p>&copy; Copyright 2022 | Designed by Josh Bakos</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+    <script
+      src="https://kit.fontawesome.com/1e4b6b9fc4.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"
+      type="text/javascript"
+    ></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
